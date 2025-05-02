@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #191C1C;
+    height: 100vh;
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+mat-toolbar.header {
+    border-bottom: 1px solid #444 !important;
+}
+
+mat-toolbar.header .btn-login,
+mat-toolbar.header .btn-logout {
+    background-color: cyan;
+    color: #000;
+    transition: 0.3s ease-in-out;
+    border: 1px solid cyan;
+}
+
+mat-toolbar.header .btn-login:hover,
+mat-toolbar.header .btn-logout:hover {
+    background-color: transparent;
+    color: #FFF;
+    box-shadow: 0 4px 10px rgba(0, 255, 255, 0.6);
+}

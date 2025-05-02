@@ -1,0 +1,11 @@
+<mat-toolbar color="primary" class="header">
+    <span class="spacer"></span>
+
+    <!-- botão Login / Logout -->
+    <ng-container *ngIf="!(auth.authState$ | async); else logged">
+        <button mat-button (click)="openLogin()" class="btn-login">Login</button>
+    </ng-container>
+    <ng-template #logged>
+        <button mat-button (click)="onLogout()" class="btn-logout">Logout</button>
+    </ng-template>
+</mat-toolbar>

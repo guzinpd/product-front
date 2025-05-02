@@ -1,0 +1,40 @@
+.table-card {
+    border-radius: 5px;
+    border: 1px solid #444;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+mat-card-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFF;
+    margin-bottom: 15px;
+}
+
+mat-paginator {
+    border-radius: 5px;
+}
+
+.btn-create {
+    background-color: cyan;
+    color: #000;
+    transition: 0.3s ease-in-out;
+    border: 1px solid cyan;
+    border-radius: 5px;
+}
+
+.btn-create:hover {
+    background-color: transparent;
+    color: #FFF;
+    box-shadow: 0 4px 10px rgba(0, 255, 255, 0.6);
+}
+
+.filter-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 15px;
+}
+
+
